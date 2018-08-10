@@ -34,15 +34,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/view_top">
-            <TextView
-                android:id="@+id/view_menu"
+
+            <GridView
+                android:id="@+id/constellation"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:background="@color/colorPrimaryDark"
-                android:text="具体筛选条件的布局"
-                android:gravity="center"
-                android:textColor="@android:color/white"
-                />
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:horizontalSpacing="3dp"
+                android:verticalSpacing="2dp"
+                android:numColumns="4"/>
         </LinearLayout>
 
 
