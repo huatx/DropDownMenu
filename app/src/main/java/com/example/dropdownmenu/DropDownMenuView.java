@@ -17,8 +17,6 @@ import android.widget.RelativeLayout;
 
 /**
  * <pre>
- *     author : Clement
- *     time   : 2017/05/08
  *     desc   :
  *     version: 1.0
  * </pre>

@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 constellationAdapter.setCheckItem(position);
                 constellationPosition = position;
-                dropDownMenu.close();
+//                dropDownMenu.close();
             }
         });
         TextView textView = findViewById(R.id.view_filter);
